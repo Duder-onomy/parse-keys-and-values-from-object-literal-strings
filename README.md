@@ -1,0 +1,29 @@
+# Parse Keys And Values From Object Literal Strings
+
+This library will turn a string like this:
+    `{ yeah : bro, no : dawg }`
+
+Into:
+    `[
+        {
+            key : 'yeah',
+            value : 'bro'
+        },
+        {
+            key : 'no',
+            value : 'dawg'
+        }
+    ]`
+
+Thats it!
+Pretty cool huh?
+
+I use it in my custom attribute library but it could be used in other places as well.
+
+Inspiration: I was implementing something like this for my custom attribute library:
+```html
+<div on-event='{ click : handleClick, mouseover : handleMouseOver, mouseOut : handleMouseOut }'></div>
+```
+
+Knockout.js does it. Angular does it. Jade does it. Ember does it. Why cant I do it too?
+Anyways, I reverse engineered it from knockout.js source code. Sue me.

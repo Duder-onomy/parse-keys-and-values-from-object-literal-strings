@@ -1,0 +1,19 @@
+{
+  "name": "parse-keys-and-values-from-object-literal-strings",
+  "version": "1.0.0",
+  "description": "This library will turn a string like this:     `{ yeah : bro, no : dawg }`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duder-onomy/parse-keys-and-values-from-object-literal-strings.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Duder-onomy/parse-keys-and-values-from-object-literal-strings/issues"
+  },
+  "homepage": "https://github.com/Duder-onomy/parse-keys-and-values-from-object-literal-strings#readme"
+}
