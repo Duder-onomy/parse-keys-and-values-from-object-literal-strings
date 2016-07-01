@@ -1,26 +1,35 @@
 # Parse Keys And Values From Object Literal Strings
 
 This library will turn a string like this:
-    `{ yeah : bro, no : dawg }`
+
+`'{ yeah : bro, no : dawg }'`
 
 Into:
-    `[
-        {
-            key : 'yeah',
-            value : 'bro'
-        },
-        {
-            key : 'no',
-            value : 'dawg'
-        }
-    ]`
+```json
+[
+    {
+        key : 'yeah',
+        value : 'bro'
+    },
+    {
+        key : 'no',
+        value : 'dawg'
+    }
+]
+```
 
 Thats it!
 Pretty cool huh?
 
+Install it like so: 
+`npm install --save-dev parse-keys-and-values-from-object-literal-strings`
+
+
 I use it in my custom attribute library but it could be used in other places as well.
 
+
 Inspiration: I was implementing something like this for my custom attribute library:
+
 ```html
 <div on-event='{ click : handleClick, mouseover : handleMouseOver, mouseOut : handleMouseOut }'></div>
 ```
