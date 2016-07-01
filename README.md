@@ -5,7 +5,7 @@ This library will turn a string like this:
 `'{ yeah : bro, no : dawg }'`
 
 Into:
-```json
+```javascript
 [
     {
         key : 'yeah',
