@@ -1,7 +1,7 @@
 {
   "name": "parse-keys-and-values-from-object-literal-strings",
-  "version": "1.0.0",
-  "description": "This library will turn a string like this:     `{ yeah : bro, no : dawg }`",
+  "version": "1.0.1",
+  "description": "This method will parse-keys-and-values-from-object-literal-strings",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
