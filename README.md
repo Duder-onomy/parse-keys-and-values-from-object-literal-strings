@@ -1,3 +1,11 @@
+# DEPRECATED!!!
+
+There is a much better / still maintained, and as it turns out, the original version of this code over here: https://github.com/mbest/js-object-literal-parse
+
+All credit goes to https://github.com/mbest
+
+---
+
 # Parse Keys And Values From Object Literal Strings
 
 This library will turn a string like this:
